@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap');
+:root{--maroon:#5C0A28;--dark:#222;--muted:#666;--bg:#ffffff;--light:#f4f4f4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--dark);font-family:Montserrat,Arial,sans-serif}
+header{border-bottom:1px solid #eee;background:#fff}
+.nav{max-width:1200px;margin:auto;padding:18px 20px;display:flex;align-items:center;gap:24px}
+.nav a{color:var(--dark);text-decoration:none;font-weight:600}
+.nav a:hover{color:var(--maroon)}
+.logo{display:flex;align-items:center;gap:12px}
+.logo svg{height:36px}
+.hero{max-width:1200px;margin:40px auto 10px;padding:0 20px}
+.hero h1{font-family:'Playfair Display',serif;color:var(--maroon);font-size:42px;margin:0 0 10px}
+.hero p{color:var(--muted);max-width:900px}
+.container{max-width:1200px;margin:auto;padding:30px 20px}
+h2{font-family:'Playfair Display',serif;color:var(--maroon);margin-top:20px}
+.card{background:#fff;border:1px solid #eee;border-radius:12px;padding:20px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.badge{display:inline-block;border:1px solid var(--maroon);color:var(--maroon);padding:6px 10px;border-radius:999px;font-size:12px}
+footer{background:var(--light);margin-top:40px}
+footer .container{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.small{font-size:12px;color:#555}

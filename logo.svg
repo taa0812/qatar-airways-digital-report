@@ -1,0 +1,12 @@
+
+<svg viewBox="0 0 240 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .t1{font:700 28px 'Playfair Display', serif; fill:#5C0A28}
+      .t2{font:600 14px 'Montserrat', sans-serif; fill:#5C0A28; letter-spacing:2px}
+    </style>
+  </defs>
+  <text x="0" y="30" class="t1">QATAR</text>
+  <text x="110" y="30" class="t1">AIRWAYS</text>
+  <text x="0" y="46" class="t2">DIGITAL ANALYSIS</text>
+</svg>
